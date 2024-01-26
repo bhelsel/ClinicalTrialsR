@@ -4,7 +4,9 @@
 
 if(getRversion() >= "2.15.1")  utils::globalVariables(
   c(".", "dob", "race8", "choices", "date_fields", "field",
-    "field_type", "id_name", "id_num", "race1", "value", "variable_field_name")
+    "field_type", "id_name", "id_num", "race1", "value", "variable_field_name",
+    "enrollment_by_week", "enrollment_cumulative", "screen_by_week",
+    "screening_cumulative", "week", "year")
 )
 
 #' @title ClinicalTrialsR: R Package for Automating Clinical Trial Reporting.
